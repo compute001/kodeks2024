@@ -23,11 +23,11 @@ button{
     padding: 8px 60px;
 
     border-radius: 30px;
-    font-size:var(--fntsizel1);
+    /* font-size:var(--fntsizel1); */
     letter-spacing: var(--gap);
 }
 .container{
-    padding-inline: 150px;
+    padding-inline: 80px;
 }
 .header{
     padding: 20px;
@@ -39,12 +39,12 @@ button{
   
 }
 .header .logo img{
-    width: 200px;
+    width: 160px;
 }
 
 .header .navbar .list{
     display:flex;
-    gap:40px;
+    gap:30px;
 
 }
 .header .navbar ul li{
@@ -53,7 +53,7 @@ button{
 .header .navbar ul li a{
     text-decoration: none;
     color:var(--prclr);
-    font-size: var(--fntsizel1);
+    /* font-size: var(--fntsizel1); */
 }
 .header .contactbtn{
     border:none;
@@ -61,7 +61,7 @@ button{
     padding: 8px 60px;
     color:white;
     border-radius: 30px;
-    font-size: var(--fntsizel1);
+    font-size: 16px;
     letter-spacing: var(--gap);
 }
 
@@ -82,8 +82,15 @@ button{
     border-bottom-right-radius:850px;
 }
 .hero .content{
-    width:60%;
     padding: 5% 0px 0px 10%;
+}
+.hero .content .toptext p:first-child{
+    width:45%;
+
+}
+.hero .content .toptext p:last-child{
+    width:60%;
+
 }
 .hero .content .toptext P:first-child{
     font-size: 47px;
@@ -151,13 +158,13 @@ button{
 
 
 .about .textsect h2{
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 900;
   color:var(--prclr)
   
 }
 .about .textsect p{
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 400;
     color:var(--prclr);
     margin-block:40px;
@@ -172,6 +179,7 @@ button{
 }
 
 /* CHAIRMAN SECTION */
+
 .chairmanmessage{
     padding-block:var(--sectiongap);
 }
@@ -189,7 +197,7 @@ button{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .chairmanmessage .messagewrapper .leftcontent{
-    width:80%;
+    width:90%;
     background-color: var(--trclr);
     padding:60px;
     overflow:auto;
@@ -201,7 +209,7 @@ border-bottom-right-radius:850px;
 .chairmanmessage .imagewrapper{
  width:400px;
  position:absolute;
- right:80px;
+ right:20px;
  top:50%;
  transform: translateY(-50%);
 
@@ -221,7 +229,7 @@ border-bottom-right-radius:850px;
     letter-spacing: 1px;
 }
 .chairmanmessage .leftcontent p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     width:80%;
     color:var(--prclr);
@@ -234,7 +242,7 @@ border-bottom-right-radius:850px;
 /* TRANSFORMATION */
 
 .transform .text h2{
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 800;
     color:var(--prclr);
     margin-bottom: 45px;
@@ -242,11 +250,11 @@ border-bottom-right-radius:850px;
 }
 .transform .card img{
     width:100%;
-    height:600px;
+    height:500px;
     border-radius: 70px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     object-fit: cover;
-    object-position: 0px 230%;
+    object-position: 0px 150%;
 }
 .transform .cardswrapper{
 display:grid;
@@ -268,17 +276,18 @@ gap:50px;
     background-color: var(--prclr);
     border-radius: 60px;
     height:180px;
+    width:100%;
 
 }
 .transform .cardtxt h2{
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 800;
     color:white;
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
 .transform .cardtxt p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color:var(--trclr);
     line-height: 25px;
@@ -312,7 +321,7 @@ margin-top:60px;
 }
 
 .contactsection .contactwrapper p{
-font-size: 65px;
+font-size: 50px;
 font-weight: 800;
 color:white;
 letter-spacing:2px;
@@ -333,7 +342,7 @@ letter-spacing:2px;
 
 }
 .contactsection .callandemailwrapper .call .content{
-    font-size: 30px;
+    font-size: 26px;
     color:var(--prclr);
     font-weight:800;
 }
@@ -369,7 +378,7 @@ top:50px;
     text-align: center;
 }
 .locations .topcontent h3{
-    font-size: 45px;
+    font-size: 42px;
     font-weight: 800;
     color:white;
     letter-spacing: 2px;
@@ -381,7 +390,7 @@ top:50px;
 }
 .locations .midcontent p{
     color:var(--prclr);
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 50px;
 }
 .locations .bottomcontent{
@@ -390,17 +399,17 @@ top:50px;
     justify-content: space-between;
 }
 .locations .bottomcontent h2{
-    font-size: 45px;
+    font-size: 42px;
     font-weight: 800;
     letter-spacing: 2px;
     margin-bottom: 15px;
 }
 .locations .bottomcontent h3{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
 }
 .locations .bottomcontent p{
-    font-size: 22px;
+    font-size: 20px;
  
 }
 .locations .bottomcontent .phone{
@@ -424,7 +433,7 @@ top:50px;
     color:var(--prclr);
     margin-top:var(--sectiongap);
     margin-bottom:50px;
-    font-size: 23px;
+    font-size: 21px;
 }
 .footersect ul li{
     list-style: none;
@@ -446,3 +455,11 @@ top:50px;
 .footersect ul,.footersect p{
     padding-left: 30px;
 }
+
+@media only screen and (min-width: 1400px) {
+    .transform .card img{
+  
+        height:600px;
+  
+    }
+  }
