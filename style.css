@@ -85,7 +85,7 @@ button{
     padding: 5% 0px 0px 10%;
 }
 .hero .content .toptext p:first-child{
-    width:45%;
+    width:35%;
 
 }
 .hero .content .toptext p:last-child{
@@ -93,8 +93,8 @@ button{
 
 }
 .hero .content .toptext P:first-child{
-    font-size: 47px;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 400;
     letter-spacing:2px;
     color:white;
     margin-top:10px;
@@ -102,17 +102,17 @@ button{
     
 }
 .hero .content .toptext P:last-child{
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 800;
     letter-spacing:2px; 
     color:var(--trclr);
 }
 .hero .midtext{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 400;
     letter-spacing:1px;
     color:white; 
-    margin-block: 70px;
+    margin-block: 50px;
 }
 .hero button{
     border:none;
@@ -120,7 +120,7 @@ button{
     padding: 8px 60px;
     color:white;
     border-radius: 30px;
-    font-size:var(--fntsizel1);
+    font-size:16px;
     letter-spacing: var(--gap);
 }
 .hero .dots{
@@ -164,7 +164,7 @@ button{
   
 }
 .about .textsect p{
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 400;
     color:var(--prclr);
     margin-block:40px;
