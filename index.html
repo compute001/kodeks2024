@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kodeks Sept 2024</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- HEADER TOP -->
@@ -22,10 +29,14 @@
             <li class="links"><a href="">Awards & Accolades</a></li>
             <li class="links"><a href="">News</a></li>
           </ul>
+          <div class="closebar">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
         </div>
         <div class="contact">
           <button class="contactbtn">Contact Us</button>
         </div>
+        <div class="baricon"><i class="fa-solid fa-bars"></i></div>
       </div>
     </section>
 
@@ -260,5 +271,18 @@
         </div>
       </div>
     </section>
+
+    <script>
+      let navbar = document.querySelector(".navbar");
+      let openButton = document.querySelector(".baricon");
+      let closeButton = document.querySelector(".closebar");
+
+      openButton.addEventListener("click", function () {
+        navbar.style.display = "block";
+      });
+      closeButton.addEventListener("click", function () {
+        navbar.style.display = "none";
+      });
+    </script>
   </body>
 </html>

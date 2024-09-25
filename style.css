@@ -55,6 +55,9 @@ button{
     color:var(--prclr);
     /* font-size: var(--fntsizel1); */
 }
+.header .navbar .closebar{
+    display:none;
+}
 .header .contactbtn{
     border:none;
     background-color:var(--sdclr);
@@ -63,6 +66,9 @@ button{
     border-radius: 30px;
     font-size: 16px;
     letter-spacing: var(--gap);
+}
+.header .baricon{
+    display:none;
 }
 
 /* HERO SECTION */
@@ -294,6 +300,8 @@ gap:50px;
 
 }
 
+/* 
+CONTACT SECTION */
 .contactsection{
 
 margin-top:60px;
@@ -456,6 +464,8 @@ top:50px;
     padding-left: 30px;
 }
 
+
+
 @media only screen and (min-width: 1400px) {
     .transform .card img{
   
@@ -463,3 +473,313 @@ top:50px;
   
     }
   }
+
+
+  /* MEDIA BELOW 768PX */
+  @media only screen and (max-width: 768px) {
+    .container{
+        padding-inline:30px;
+    }
+    .header{
+        font-size: 15px;
+        position:relative;
+    }
+    .header .logo img{
+        width: 130px;
+    }
+  
+    .header .contactbtn{
+   
+        padding: 6px 30px;
+        font-size:15px;
+   
+    }
+    .header .baricon{
+        display:block;
+        font-size: 25px;
+        cursor: pointer;
+
+    }
+    .header .baricon i{
+       color: var(--prclr);
+    }
+
+    .header .navbar{
+        display:none;
+    }
+    .header .navbar {
+        background-color: var(--sdclr);
+        width:100%;
+        height:100vh;
+        position:fixed;
+        top:0;
+        left:0;
+    }
+    .header .navbar .closebar{
+        display:block;
+        color:white;
+        font-size: 30px;
+        position:absolute;
+        top:5%;
+        right:30px;
+        cursor:pointer;
+    }
+    .header .navbar .list{
+     
+        flex-direction: column;
+        
+        align-items: center;
+        gap:40px;
+     padding-block:20%;
+    }
+
+.header .navbar ul li a {
+    color:white;
+    font-size: 18px;
+}
+    /* HERO SECTION */
+
+.hero .content .toptext p:first-child{
+    width:60%;
+
+}
+.hero .content .toptext p:last-child{
+    width:70%;
+
+}
+.hero .content .toptext P:first-child{
+    font-size: 30px;
+ margin-bottom: 20px;
+
+    
+}
+.hero .content .toptext P:last-child{
+    font-size: 40px;
+    margin-block:50px;
+ 
+}
+.hero .midtext{
+    font-size: 21px;
+
+}
+.hero button{
+    margin-top:60px;
+}
+
+.hero .dots{
+    display:flex;
+    justify-content: center;
+    gap:7px;
+    padding-top:20px;
+  
+}
+.hero .dots .dot:nth-child(2){
+    background-color: var(--prclr);
+}
+
+.hero .dot{
+    width: 13px;
+    height:13px;
+    background-color: var(--trclr);
+    border-radius: 50%;
+    
+}
+/* ABOUT SECTION */
+
+
+
+.about .textsect h2{
+  font-size: 30px;
+
+  
+}
+.about .textsect p{
+    font-size: 20px;
+ 
+}
+.about button{
+
+    font-size: 15px;
+}
+.about .aboutimg img{
+    width:150px;
+}
+
+/* CHAIRMAN SECTION */
+
+.chairmanmessage{
+    padding-block:var(--sectiongap);
+}
+
+
+
+
+.chairmanmessage .messagewrapper .leftcontent{
+    width:100%;
+      overflow:visible;
+      padding:30px;
+}
+.chairmanmessage .imagewrapper{
+ width:300px;
+ left:0px;
+ top:6%;
+ transform: translateY(0%);
+
+ 
+
+}
+.messagewrapper .imagewrapper img{
+    width:100%;
+}
+
+
+.chairmanmessage .leftcontent h2{
+    font-size: 22px;
+
+
+}
+.chairmanmessage .leftcontent p{
+    font-size: 15px;
+
+    width:90%;
+
+    margin-bottom: 30px;
+    padding-top: 250px;
+  
+
+}
+
+/* TRANSFORMATION */
+
+.transform .text h2{
+    font-size: 30px;
+
+
+}
+.transform .card img{
+    width:100%;
+    height:450px;
+    border-radius: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    object-fit: cover;
+    object-position: 0px -100px;
+
+
+}
+.transform .cardswrapper{
+display:grid;
+grid-template-columns: 1fr 1fr ;
+
+gap:50px;
+
+}
+.transform .card{
+    position:relative;
+
+
+}
+.transform .card .cardtxt{
+    position:absolute;
+    bottom:0;
+    padding-left:20px;
+    padding-block: 10px;
+
+ 
+    height:220px;
+
+    text-align: center;
+
+
+}
+.transform .cardtxt h2{
+    font-size: 22px;
+
+}
+.transform .cardtxt p{
+    font-size: 17px;
+
+
+}
+
+/* 
+CONTACT SECTION */
+
+    .contactsection .contactwrapper{
+        padding-block:50px;
+      
+    
+    
+    }
+    .contactsection .contactwrapper button{
+        margin-bottom:30px;
+    
+        font-size: 16px;
+       
+    }
+    
+    .contactsection .contactwrapper p{
+    font-size: 35px;
+
+   
+    }
+    .contactsection .callandemailwrapper .icon img{
+        width:40px;
+    }
+    .contactsection .callandemailwrapper .call,.contactsection .callandemailwrapper .email{
+    
+        gap:10px;
+    
+    }
+    .contactsection .callandemailwrapper .call .content{
+        font-size: 22px;
+
+    }
+    .contactsection .callandemailwrapper .email .content{
+        font-size: 22px;
+  
+    }
+    /* LOCATIONS */
+
+.locations .locationinfowrapper{
+
+    padding: 40px 20px;
+}
+.locations .icon img{
+    width:50px;
+}
+
+.locations .topcontent h3{
+    font-size: 32px;
+
+}
+
+.locations .midcontent p{
+
+    font-size: 18px;
+
+}
+
+.locations .bottomcontent h2{
+    font-size: 30px;
+ 
+}
+.locations .bottomcontent h3{
+    font-size: 20px;
+    margin-bottom:10px;
+
+}
+.locations .bottomcontent p{
+    font-size: 18px;
+ 
+}
+
+/* FOOTER SECTION */
+.footersect{
+
+    font-size: 19px;
+}
+
+
+}
+    
+  
