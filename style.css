@@ -1080,6 +1080,835 @@ display:block;
     border-radius: 5px;
 }
 
+.entrustedresults .outer .rightside{
+    align-self:center;
+}
+
+
+.entrustedresults .rightside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    margin-bottom: 30px;
+
+}
+.entrustedresults .rightside .btext{
+    font-size:18px;
+  
+    color:black;
+    opacity:0.8;
+
+    letter-spacing: .3px;
+    line-height: 28px;
+
+}
+/* 
+SYSTEM INTEGRATION SOLUTION PAGE */
+.systemintegrationhero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.systemintegrationhero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.systemintegrationhero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.systemintegrationhero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.systemintegrationhero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.systemintegrationhero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+
+.establishment{
+    margin-top: var(--sectiongap);
+}
+.establishment .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.establishment .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.establishment .bmanageouter .rightside img{
+    width:100%;
+}
+.establishment .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.establishment .leftside .mtext, .establishment .leftside .btext{
+    font-size:18px;
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+.establishment .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.establishment .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.establishment .leftside .card .cardheaing{
+    font-size:22px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+}
+.establishment .leftside .establishmentoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.establishment .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+
+/* 
+BUSINESS CONSULTATION SOLUTION PAGE */
+.businessconsultationhero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.businessconsultationhero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.businessconsultationhero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.businessconsultationhero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.businessconsultationhero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.businessconsultationhero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+
+.collaborationbusinessconsulting{
+    margin-top: var(--sectiongap);
+}
+.collaborationbusinessconsulting .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.collaborationbusinessconsulting .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.collaborationbusinessconsulting .bmanageouter .rightside img{
+    width:100%;
+}
+.collaborationbusinessconsulting .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.collaborationbusinessconsulting  .leftside .mtext, .collaborationbusinessconsulting  .leftside .btext{
+    font-size:18px;
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+.collaborationbusinessconsulting  .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.collaborationbusinessconsulting  .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.collaborationbusinessconsulting  .leftside .card .cardheaing{
+    font-size:22px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+}
+.collaborationbusinessconsulting  .leftside .businessconsultationoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.collaborationbusinessconsulting  .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+.businessconsultingadvisory{
+    margin-top: var(--sectiongap);
+}
+.businessconsultingadvisory .outer{
+    display:flex;
+    gap:60px;
+}
+
+
+.businessconsultingadvisory .outer .leftside{
+    flex: 0 0 50%;
+}
+.businessconsultingadvisory .outer .leftside img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.businessconsultingadvisory .outer .rightside{
+    align-self:center;
+}
+
+
+.businessconsultingadvisory .rightside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    margin-bottom: 30px;
+
+}
+.businessconsultingadvisory .rightside .btext{
+    font-size:18px;
+  
+    color:black;
+    opacity:0.8;
+
+    letter-spacing: .3px;
+    line-height: 28px;
+
+}
+
+/* 
+INFRASTRUCTURE SOLUTION PAGE */
+.infrastructurehero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.infrastructurehero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.infrastructurehero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.infrastructurehero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.infrastructurehero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.infrastructurehero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+.nextgeneration{
+    margin-top: var(--sectiongap);
+}
+.nextgeneration .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.nextgeneration .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.nextgeneration .bmanageouter .rightside img{
+    width:100%;
+}
+.nextgeneration .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.nextgeneration .leftside .mtext, .nextgeneration .leftside .btext{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+   
+
+}
+.nextgeneration .leftside .btext{
+padding-left:50px;
+}
+.nextgeneration .leftside .btext li::marker{
+
+    color:rgba(0, 0, 0, 0.8);
+ 
+}
+.nextgeneration .leftside .mtext, .nextgeneration .leftside .btext li{
+    margin-bottom: 16px;
+
+}
+
+.nextgeneration .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.nextgeneration .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.nextgeneration .leftside .card .cardheaing{
+    font-size:22px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+}
+.nextgeneration .leftside .nextgenerationoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.nextgeneration .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+/* ENTRUSTED RESULTS */
+.infrastructureservice{
+    margin-top: var(--sectiongap);
+}
+.infrastructureservice .outer{
+    display:flex;
+    gap:60px;
+}
+
+
+.infrastructureservice .outer .leftside{
+    flex: 0 0 50%;
+}
+.infrastructureservice .outer .leftside img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.infrastructureservice .outer .rightside{
+    align-self:center;
+}
+
+
+.infrastructureservice .rightside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    margin-bottom: 30px;
+
+}
+.infrastructureservice .rightside .btext{
+    font-size:18px;
+  
+    color:black;
+    opacity:0.8;
+
+    letter-spacing: .3px;
+    line-height: 28px;
+}
+
+/* BUSINESS PROCESS PAGE */
+
+.businessprocesshero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.businessprocesshero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.businessprocesshero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.businessprocesshero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.businessprocesshero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.businessprocesshero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+.advancebusinessprocess{
+    margin-top: var(--sectiongap);
+}
+.advancebusinessprocess .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.advancebusinessprocess .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.advancebusinessprocess .bmanageouter .rightside img{
+    width:100%;
+}
+.advancebusinessprocess .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.advancebusinessprocess .leftside .mtext, .advancebusinessprocess .leftside .btext{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+   
+
+}
+.advancebusinessprocess .leftside .btext{
+padding-left:50px;
+}
+.advancebusinessprocess .leftside .btext li::marker{
+
+    color:rgba(0, 0, 0, 0.8);
+ 
+}
+/* .nextgeneration .leftside .mtext, .nextgeneration .leftside .btext li{
+    margin-bottom: 16px;
+
+} */
+
+.advancebusinessprocess .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.advancebusinessprocess .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.advancebusinessprocess .leftside .card .cardheaing{
+    font-size:22px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+}
+.advancebusinessprocess .leftside .advancebusinessprocessoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.advancebusinessprocess .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+/* BUSINESS SERVICES */
+.businessservices {
+    margin-top: var(--sectiongap);
+  
+}
+.businessservices .container{
+ background-color: #F7F7F7;
+
+}
+
+.businessservices .businessservicescardsouter{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:50px;
+    padding-block:50px;
+}
+.businessservices .businessservicescard .heading{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--prclr);
+    margin-bottom: 20px;
+}
+.businessservices .businessservicescard .text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  color:black;
+  opacity: .7;
+}
+
+/* 
+CLOUD SERVICES PAGE */
+.cloudservicehero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.cloudservicehero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.cloudservicehero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.cloudservicehero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.cloudservicehero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.cloudservicehero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+.benifitsmanagedit{
+    margin-top: var(--sectiongap);
+}
+.benifitsmanagedit .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.benifitsmanagedit .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.benifitsmanagedit .bmanageouter .rightside img{
+    width:100%;
+}
+.benifitsmanagedit .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.benifitsmanagedit .leftside .mtext, .benifitsmanagedit .leftside .btext{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+
+}
+
+.benifitsmanagedit .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.benifitsmanagedit .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.benifitsmanagedit .leftside .card .cardheaing{
+    font-size:22px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+}
+.benifitsmanagedit .leftside .manageitoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.benifitsmanagedit .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+/* ENTRUSTED RESULTS */
+.entrustedresults{
+    margin-top: var(--sectiongap);
+}
+.entrustedresults .outer{
+    display:flex;
+    gap:60px;
+}
+
+
+.entrustedresults .outer .leftside{
+    flex: 0 0 50%;
+}
+.entrustedresults .outer .leftside img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.entrustedresults .outer .rightside{
+    align-self:center;
+}
+
 
 .entrustedresults .rightside .ttext{
     font-size:30px;
