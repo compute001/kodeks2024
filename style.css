@@ -788,7 +788,7 @@ CONTACT SECTION */
 
    .solutionpages{
     border-top: 1px solid var(--sdclr);
-    padding-block:50px;
+    padding-block:30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     width:100% !important;
  
@@ -836,8 +836,8 @@ CONTACT SECTION */
     transition: all .5s linear;
    }
    .solutionpages .businesschallenges .cardsouter{
-     display: flex;
-    flex-direction: column;
+     display: grid;
+    grid-template-columns: 1fr 1fr;
      gap:5px;
    }
 
@@ -931,8 +931,9 @@ CONTACT SECTION */
 .solutionservicessection .servicewrapper .servicecard{
     background:var(--prclr);
     color:white;
-    padding:50px;
+    padding:25px;
     border-radius: 30px;
+    font-size: 18px;
 }
 /* 
 MANAGE IT SOLUTION PAGE */
