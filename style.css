@@ -908,7 +908,7 @@ CONTACT SECTION */
     border: .5px solid var(--trclr);
     border-radius:10px;
    }
- .solutionpages .businesschallenges .card img{
+   .solutionpages .businesschallenges .card img{
     width:50px;
    }
    .solutionpages .businesschallenges .card:hover{
@@ -1011,9 +1011,16 @@ CONTACT SECTION */
 .solutionservicessection .servicewrapper .servicecard{
     background:var(--prclr);
     color:white;
-    padding:25px;
+    padding:20px 25px;
     border-radius: 30px;
     font-size: 18px;
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+   gap:10px;
+}
+.solutionservicessection .servicewrapper .servicecard img{
+width:60px;
 }
 /* 
 MANAGE IT SOLUTION PAGE */
