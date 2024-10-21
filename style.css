@@ -909,7 +909,7 @@ CONTACT SECTION */
     border-radius:10px;
    }
    .solutionpages .businesschallenges .card img{
-    width:50px;
+    width:40px;
    }
    .solutionpages .businesschallenges .card:hover{
     border: .5px solid var(--prclr);
