@@ -227,7 +227,7 @@ button{
 
 /* ABOUT SECTION */
 .about{
-    padding-top:var(--sectiongap);
+    /* padding-top:var(--sectiongap); */
 }
 .about .container{
     display:flex;
@@ -524,6 +524,13 @@ top:50px;
 .footersect ul li{
     list-style: none;
 }
+.footersect .toplist{
+    margin-top:30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footersect ul li a{
     color:var(--prclr);
     text-decoration: none;
@@ -1020,7 +1027,7 @@ CONTACT SECTION */
    gap:10px;
 }
 .solutionservicessection .servicewrapper .servicecard img{
-width:60px;
+width:50px;
 }
 /* 
 MANAGE IT SOLUTION PAGE */
