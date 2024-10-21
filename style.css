@@ -36,6 +36,13 @@ button{
     /* font-size:var(--fntsizel1); */
     letter-spacing: var(--gap);
 }
+.m20{
+    margin-block: 30px;
+}
+.m50{
+    margin-top: 50px;
+
+}
 .h60w6{
    font-size:  60px;
     font-weight: 600;
@@ -2059,7 +2066,7 @@ display:block;
 }
 .slide-container .slides{
     width: 100%;
-    height: calc(100% - 20px);
+    height:100%;
     position: relative;
     overflow: hidden;
 }
