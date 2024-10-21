@@ -356,18 +356,16 @@
               <div class="content">
                 <div class="toptext">
                   <p>
-                    Innovate <br />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTransform
-                    <br />
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSucceed
+                    Innovate, Transform, Succeed
                   </p>
                   <!-- <p>Empowering businesses with cutting-edge technology solutions</p> -->
                 </div>
                 <div class="midtext">
-                  <p>
+                  <p class="m20">
                     Empowering businesses with cutting-edge technology solutions
                   </p>
                 </div>
-                <button>Discover Our Services</button>
+                <button class="m50">Discover Our Services</button>
               </div>
             </div>
           </div>
@@ -382,11 +380,11 @@
                   <p>Seamless Integration, Powerful Results</p>
                 </div>
                 <div class="midtext">
-                  <p>
+                  <p class="m20">
                     Connecting your enterprise from back-office to front-end
                   </p>
                 </div>
-                <button>Explore Integration Solutions</button>
+                <button class="m50">Explore Integration Solutions</button>
               </div>
             </div>
           </div>
@@ -398,15 +396,15 @@
               <div class="content">
                 <div class="toptext">
                   <!-- <p>Future-Ready Technology for</p> -->
-                  <p>Future-Proof <br />Your Business</p>
+                  <p>Future-Proof Your Business</p>
                 </div>
                 <div class="midtext">
-                  <p>
+                  <p class="m20">
                     Stay ahead with our innovative IT strategies and managed
                     services
                   </p>
                 </div>
-                <button>Start Your Journey</button>
+                <button class="m50">Start Your Journey</button>
               </div>
             </div>
           </div>
@@ -435,11 +433,7 @@
             <br>
             <h3 class="h20w6">Pioneering the Future of Smart Building Technology</h3>
             <p>
-              Since 19XX, KODEKS Group has the leading footprint in network
-              innovation and our vision is to build the next generation building
-              architecture towards making building smarter through optimized
-              lighting, building automation, and Internet of Things (loT)
-              technology.
+              At KODEKS, we stand at the forefront of network innovation, driving the evolution of building architecture into the smart, connected spaces of tomorrow. Our vision is clear: to revolutionize the way buildings operate, making them more efficient, sustainable, and responsive to the needs of their occupants through cutting-edge technology.
             </p>
           </div>
           <button>Learn More About Us</button>
@@ -636,89 +630,89 @@
 
 
 
-      let slides = document.querySelectorAll('.slide');
-// Access the next and prev buttons
-let next = document.querySelector('.next');
-let prev = document.querySelector('.prev');
-// Access the indicators
-let dots = document.querySelectorAll('.dot');
+//       let slides = document.querySelectorAll('.slide');
+// // Access the next and prev buttons
+// let next = document.querySelector('.next');
+// let prev = document.querySelector('.prev');
+// // Access the indicators
+// let dots = document.querySelectorAll('.dot');
 
-var counter = 0;
+// var counter = 0;
 
-// Code for next button
-next.addEventListener('click', slideNext);
-function slideNext(){
-slides[counter].style.animation = 'next1 0.5s ease-in forwards';
-if(counter >= slides.length-1){
-  counter = 0;
-}
-else{
-  counter++;
-}
-slides[counter].style.animation = 'next2 0.5s ease-in forwards';
-indicators();
-}
+// // Code for next button
+// next.addEventListener('click', slideNext);
+// function slideNext(){
+// slides[counter].style.animation = 'next1 0.5s ease-in forwards';
+// if(counter >= slides.length-1){
+//   counter = 0;
+// }
+// else{
+//   counter++;
+// }
+// slides[counter].style.animation = 'next2 0.5s ease-in forwards';
+// indicators();
+// }
 
-// Code for prev button
-prev.addEventListener('click', slidePrev);
-function slidePrev(){
-slides[counter].style.animation = 'prev1 0.5s ease-in forwards';
-if(counter == 0){
-  counter = slides.length-1;
-}
-else{
-  counter--;
-}
-slides[counter].style.animation = 'prev2 0.5s ease-in forwards';
-indicators();
-}
+// // Code for prev button
+// prev.addEventListener('click', slidePrev);
+// function slidePrev(){
+// slides[counter].style.animation = 'prev1 0.5s ease-in forwards';
+// if(counter == 0){
+//   counter = slides.length-1;
+// }
+// else{
+//   counter--;
+// }
+// slides[counter].style.animation = 'prev2 0.5s ease-in forwards';
+// indicators();
+// }
 
-// Auto slideing
-function autoSliding(){
-  deletInterval = setInterval(timer, 3000);
-  function timer(){
-    slideNext();
-    indicators();
-  }
-}
-autoSliding();
+// // Auto slideing
+// function autoSliding(){
+//   deletInterval = setInterval(timer, 3000);
+//   function timer(){
+//     slideNext();
+//     indicators();
+//   }
+// }
+// autoSliding();
 
-// Stop auto sliding when mouse is over
-const container = document.querySelector('.slide-container');
-container.addEventListener('mouseover', function(){
-  clearInterval(deletInterval);
-});
+// // Stop auto sliding when mouse is over
+// const container = document.querySelector('.slide-container');
+// container.addEventListener('mouseover', function(){
+//   clearInterval(deletInterval);
+// });
 
-// Resume sliding when mouse is out
-container.addEventListener('mouseout', autoSliding);
+// // Resume sliding when mouse is out
+// container.addEventListener('mouseout', autoSliding);
 
-// Add and remove active class from the indicators
-function indicators(){
-  for(i = 0; i < dots.length; i++){
-    dots[i].className = dots[i].className.replace(' active', '');
-  }
-  dots[counter].className += ' active';
-}
+// // Add and remove active class from the indicators
+// function indicators(){
+//   for(i = 0; i < dots.length; i++){
+//     dots[i].className = dots[i].className.replace(' active', '');
+//   }
+//   dots[counter].className += ' active';
+// }
 
-// Add click event to the indicator
-function switchImage(currentImage){
-  currentImage.classList.add('active');
-  var imageId = currentImage.getAttribute('attr');
-  if(imageId > counter){
-  slides[counter].style.animation = 'next1 0.5s ease-in forwards';
-  counter = imageId;
-  slides[counter].style.animation = 'next2 0.5s ease-in forwards';
-  }
-  else if(imageId == counter){
-    return;
-  }
-  else{
-  slides[counter].style.animation = 'prev1 0.5s ease-in forwards';
-  counter = imageId;
-  slides[counter].style.animation = 'prev2 0.5s ease-in forwards';	
-  }
-  indicators();
-}
+// // Add click event to the indicator
+// function switchImage(currentImage){
+//   currentImage.classList.add('active');
+//   var imageId = currentImage.getAttribute('attr');
+//   if(imageId > counter){
+//   slides[counter].style.animation = 'next1 0.5s ease-in forwards';
+//   counter = imageId;
+//   slides[counter].style.animation = 'next2 0.5s ease-in forwards';
+//   }
+//   else if(imageId == counter){
+//     return;
+//   }
+//   else{
+//   slides[counter].style.animation = 'prev1 0.5s ease-in forwards';
+//   counter = imageId;
+//   slides[counter].style.animation = 'prev2 0.5s ease-in forwards';	
+//   }
+//   indicators();
+// }
 
 
     </script>
