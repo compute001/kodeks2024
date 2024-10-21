@@ -908,6 +908,9 @@ CONTACT SECTION */
     border: .5px solid var(--trclr);
     border-radius:10px;
    }
+ .solutionpages .businesschallenges .card img{
+    width:50px;
+   }
    .solutionpages .businesschallenges .card:hover{
     border: .5px solid var(--prclr);
     transition: all .5s linear;
