@@ -528,7 +528,7 @@ top:50px;
     color:var(--prclr);
     margin-top:var(--sectiongap);
     margin-bottom:50px;
-    font-size: 21px;
+    font-size: 16px;
 }
 .footersect ul li{
     list-style: none;
@@ -545,14 +545,20 @@ top:50px;
     text-decoration: none;
 }
 .footersect .horizontalline{
-    height:4px;
+    height:1px;
     width:100%;
     background-color:var(--prclr);
-    margin-block: 10px;
+    margin-block: 12px;
+    box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
 .footersect ul{
     display: flex;
     gap:50px;
+}
+.footersect .address {
+  display:flex;
+  align-items: center;
+
 }
 .footersect ul,.footersect p{
     padding-left: 30px;
