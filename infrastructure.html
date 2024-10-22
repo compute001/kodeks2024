@@ -51,8 +51,12 @@
               <h3>Services</h3>
               <ul>
                 <li>
+                  <a href="technologyinnovation.html">Technology Innovation</a>
+                </li>
+                <li>
                   <a href="manageitsolutions.html">Managed IT Services</a>
                 </li>
+
                 <li>
                   <a href="systemintegration.html">Systems Integration</a>
                 </li>
@@ -74,7 +78,7 @@
               <div class="cardsouter">
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc1.JPG" alt="" />
+                    <img src="images/Internet of Things.svg" alt="" />
                   </div>
 
                   <a href="digitaltransformation.html"
@@ -83,7 +87,7 @@
                 </div>
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc2.JPG" alt="" />
+                    <img src="images/Security.svg" alt="" />
                   </div>
 
                   <a href="security.html">Security</a>
@@ -91,14 +95,14 @@
                 <!-- </br> -->
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc3.JPG" alt="" />
+                    <img src="images/Analvtics and Automation.svg" alt="" />
                   </div>
 
                   <a href="automation.html">Automation</a>
                 </div>
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc4.JPG" alt="" />
+                    <img src="images/Software.svg" alt="" />
                   </div>
 
                   <a href="gainingefficiency.html">Gaining efficiency</a>
@@ -151,20 +155,20 @@
                 <li>
                   <a href="certifications.html">Partners & Certifications</a>
                 </li>
-                <li><a href="reviewsandawards.html">Reviews & Awards</a></li>
+                <!-- <li><a href="reviewsandawards.html">Reviews & Awards</a></li> -->
               </ul>
             </div>
             <div class="platform">
               <h3>Platform partnerships</h3>
               <ul>
                 <li>
-                  <a href="industrymanufacturing.html">AWS</a>
+                  <a href="#">AWS</a>
                 </li>
                 <li>
-                  <a href="Transportationlogistics.html">Google Cloud</a>
+                  <a href="#">Google Cloud</a>
                 </li>
-                <li><a href="healthcare.html">Microsoft</a></li>
-                <li><a href="bankinsurance.html">Salesforce</a></li>
+                <li><a href="#">Microsoft</a></li>
+                <li><a href="#">Salesforce</a></li>
               </ul>
             </div>
           </div>
@@ -177,12 +181,12 @@
     <section class="infrastructurehero">
       <div class="container">
         <p class="ttext">solutions</p>
-        <h1>Infrastructure Services</h1>
+        <h1>Helping you become a truly digital organization</h1>
 
         <p class="btext">
-          We assist you in optimizing operations to boost performance and
-          accomplish business objectives for the digital transformation with our
-          end-to-end infrastructure services.
+          Through our end-to end infrastructure services, we help you optimize
+          operations to drive performance and achieve your digital
+          transformation goals.
         </p>
         <button>Schedule a Free Consultation</button>
       </div>
@@ -194,11 +198,11 @@
         <div class="bmanageouter">
           <div class="leftside">
             <p class="ttext">
-              Making the switch to IT services of the next generation
+              Making the transition to the next-generation of IT services
             </p>
             <p class="mtext">
-              Modern, flexible infrastructure is needed as a base platform for
-              digital transformation in order to facilitate:
+              Digital transformation requires modern, agile infrastructure as a
+              foundational platform to enable:
             </p>
             <!-- <p class="btext">
               Because we function as an extension of your company to manage an
@@ -209,29 +213,29 @@
 
             <ul class="btext">
               <li>
-                <p>Greater security and service standards</p>
+                <p>Higher levels of service and security</p>
               </li>
               <li>
                 <p>
-                  Convergence of business and IT to concentrate on critical
-                  procedures across channels and devices
+                  Business-IT convergence to focus on key processes across
+                  channels and devices
                 </p>
               </li>
               <li>
-                <p>Controllability and a strong system of governance</p>
+                <p>Manageability and a solid governance framework</p>
               </li>
               <li>
                 <p>
-                  combining the old and the new while enabling a distributed,
-                  virtualized hybrid IT infrastructure
+                  Blending legacy with modern, while supporting a virtualized,
+                  distributed hybrid IT environment
                 </p>
               </li>
-              <li>
+              <!-- <li>
                 <p>
                   Leading companies are upgrading IT and automating their
                   infrastructure to lay this foundation.
                 </p>
-              </li>
+              </li> -->
             </ul>
             <div class="nextgenerationoutercards">
               <div class="card">
@@ -313,16 +317,16 @@
           </div>
           <div class="rightside">
             <p class="ttext">
-              Kodeks offers a complete infrastructure service that is scalable,
-              secure, dependable, versatile, and reasonably priced.
+              KODEKS provides an end-to-end infrastructure service that is
+              affordable, scalable, secure, flexible and reliable.
             </p>
             <p class="btext">
-              We leverage emerging technologies in conjunction with a range of
-              services, such as infrastructure consultancy, technology advisory
+              We help clients drive performance, quickly adapt to changing
+              market dynamics, and achieve their digital transformation goals by
+              leveraging emerging technologies along with a range of
+              services—including infrastructure consultancy, technology advisory
               services, service desk, storage as a service, infrastructure
-              rationalization and virtualization, and more, to help clients
-              drive performance, quickly adapt to changing market dynamics, and
-              achieve their goals for digital transformation.
+              rationalization and virtualization, and more.
             </p>
           </div>
         </div>
@@ -435,6 +439,9 @@
       let closeButton = document.querySelector(".closebar");
       let solutionPortfolio = document.querySelector(".solutionportfolio");
       let solutionPages = document.querySelector(".solutionpages");
+      let companytab = document.querySelector(".company");
+      let companyPages = document.querySelector(".companypages");
+      console.log(companyPages);
 
       openButton.addEventListener("click", function () {
         navbar.style.display = "block";
@@ -447,6 +454,13 @@
       });
       solutionPages.addEventListener("mouseleave", function () {
         solutionPages.style.display = "none";
+      });
+
+      companytab.addEventListener("mousemove", function () {
+        companyPages.style.display = "block";
+      });
+      companyPages.addEventListener("mouseleave", function () {
+        companyPages.style.display = "none";
       });
     </script>
   </body>

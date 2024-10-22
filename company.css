@@ -418,3 +418,25 @@ width:100px;
 .credentials .rightside{
     flex: 0 0 50% !important;
 }
+
+/* DIGITAL EXCELLENCE */
+
+.digitalexcellence .leftside .contentwrapper {
+    gap:30px !important;
+
+}
+.digitalexcellence .leftside {
+    flex: 0 0 60% !important;
+}
+.digitalexcellence .leftside .contentwrapper h2{
+    margin-bottom:0px !important;
+  }
+  .digitalexcellence .rightside  img{
+width:350px !important;
+height:300px !important;
+
+  }
+
+  /* .businesschallenges .icon img{
+    color: blue;
+  } */

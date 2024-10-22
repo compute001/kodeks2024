@@ -52,8 +52,12 @@
               <h3>Services</h3>
               <ul>
                 <li>
+                  <a href="technologyinnovation.html">Technology Innovation</a>
+                </li>
+                <li>
                   <a href="manageitsolutions.html">Managed IT Services</a>
                 </li>
+             
                 <li>
                   <a href="systemintegration.html">Systems Integration</a>
                 </li>
@@ -75,31 +79,33 @@
               <div class="cardsouter">
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc1.JPG" alt="">
+                    <img src="images/Internet of Things.svg" alt="" />
                   </div>
-                 
+
                   <a href="digitaltransformation.html"
                     >Digital Transformation</a
                   >
                 </div>
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc2.JPG" alt="">
+                    <img src="images/Security.svg" alt="" />
                   </div>
-                 
-                  <a href="security.html">Security</a></div>
+
+                  <a href="security.html">Security</a>
+                </div>
                 <!-- </br> -->
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc3.JPG" alt="">
+                    <img src="images/Analvtics and Automation.svg" alt="" />
                   </div>
-              
-                  <a href="automation.html">Automation</a></div>
+
+                  <a href="automation.html">Automation</a>
+                </div>
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc4.JPG" alt="">
+                    <img src="images/Software.svg" alt="" />
                   </div>
-                 
+
                   <a href="gainingefficiency.html">Gaining efficiency</a>
                 </div>
               </div>
@@ -150,26 +156,27 @@
                 <li>
                   <a href="certifications.html">Partners & Certifications</a>
                 </li>
-                <li><a href="reviewsandawards.html">Reviews & Awards</a></li>
+                <!-- <li><a href="reviewsandawards.html">Reviews & Awards</a></li> -->
               </ul>
             </div>
             <div class="platform">
               <h3>Platform partnerships</h3>
               <ul>
                 <li>
-                  <a href="industrymanufacturing.html">AWS</a>
+                  <a href="#">AWS</a>
                 </li>
                 <li>
-                  <a href="Transportationlogistics.html">Google Cloud</a>
+                  <a href="#">Google Cloud</a>
                 </li>
-                <li><a href="healthcare.html">Microsoft</a></li>
-                <li><a href="bankinsurance.html">Salesforce</a></li>
+                <li><a href="#">Microsoft</a></li>
+                <li><a href="#">Salesforce</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <!-- INDUSTRY MANUFACTURING -->
 
@@ -431,11 +438,14 @@
     </section>
 
     <script>
-      let navbar = document.querySelector(".navbar");
+        let navbar = document.querySelector(".navbar");
       let openButton = document.querySelector(".baricon");
       let closeButton = document.querySelector(".closebar");
       let solutionPortfolio = document.querySelector(".solutionportfolio");
       let solutionPages = document.querySelector(".solutionpages");
+      let companytab = document.querySelector(".company");
+      let companyPages = document.querySelector(".companypages");
+      console.log(companyPages);
 
       openButton.addEventListener("click", function () {
         navbar.style.display = "block";
@@ -449,6 +459,14 @@
       solutionPages.addEventListener("mouseleave", function () {
         solutionPages.style.display = "none";
       });
+
+      companytab.addEventListener("mousemove", function () {
+        companyPages.style.display = "block";
+      });
+      companyPages.addEventListener("mouseleave", function () {
+        companyPages.style.display = "none";
+      });
+    
     </script>
   </body>
 </html>

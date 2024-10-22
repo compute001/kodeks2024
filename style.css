@@ -36,12 +36,18 @@ button{
     /* font-size:var(--fntsizel1); */
     letter-spacing: var(--gap);
 }
+.mb10{
+    margin-bottom: 10px !important;
+}
 .m20{
     margin-block: 30px;
 }
 .m50{
     margin-top: 50px;
 
+}
+.mb30{
+    margin-bottom: 30px !important;
 }
 .h60w6{
    font-size:  60px;
@@ -101,6 +107,9 @@ button{
     line-height: 1.7em;
     letter-spacing: 1px;
     
+}
+.colorwht{
+    color:var(--ltwht) !important;
 }
 .container{
     padding-inline: 80px;
@@ -165,7 +174,7 @@ button{
     border-bottom-right-radius:850px;
 }
 .hero .content{
-    padding: 5% 0px 0px 90px;
+    padding: 10% 0px 0px 90px;
 }
 .hero .content .toptext p:first-child{
     width:35%;
@@ -669,6 +678,8 @@ top:50px;
     border-radius: 50%;
     
 }
+
+
 /* ABOUT SECTION */
 
 
@@ -914,9 +925,11 @@ CONTACT SECTION */
     padding:25px;
     border: .5px solid var(--trclr);
     border-radius:10px;
+    background-color: var(--sdclr);
    }
    .solutionpages .businesschallenges .card img{
     width:40px;
+    margin-bottom: 5px;
    }
    .solutionpages .businesschallenges .card:hover{
     border: .5px solid var(--prclr);
@@ -933,11 +946,12 @@ CONTACT SECTION */
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    color: var(--sdclr);
+    color: white;
+
   
    }
    .solutionpages .businesschallenges a:hover{
-    color: var(--prclr);
+    color: var(--ltwht);
     transition:  all .3s linear;
    }
    .solutionpages .industryfocus li{

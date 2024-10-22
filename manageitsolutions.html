@@ -51,8 +51,12 @@
               <h3>Services</h3>
               <ul>
                 <li>
+                  <a href="technologyinnovation.html">Technology Innovation</a>
+                </li>
+                <li>
                   <a href="manageitsolutions.html">Managed IT Services</a>
                 </li>
+
                 <li>
                   <a href="systemintegration.html">Systems Integration</a>
                 </li>
@@ -74,7 +78,7 @@
               <div class="cardsouter">
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc1.JPG" alt="" />
+                    <img src="images/Internet of Things.svg" alt="" />
                   </div>
 
                   <a href="digitaltransformation.html"
@@ -83,7 +87,7 @@
                 </div>
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc2.JPG" alt="" />
+                    <img src="images/Security.svg" alt="" />
                   </div>
 
                   <a href="security.html">Security</a>
@@ -91,14 +95,14 @@
                 <!-- </br> -->
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc3.JPG" alt="" />
+                    <img src="images/Analvtics and Automation.svg" alt="" />
                   </div>
 
                   <a href="automation.html">Automation</a>
                 </div>
                 <div class="card">
                   <div class="icon">
-                    <img src="images/bc4.JPG" alt="" />
+                    <img src="images/Software.svg" alt="" />
                   </div>
 
                   <a href="gainingefficiency.html">Gaining efficiency</a>
@@ -151,26 +155,27 @@
                 <li>
                   <a href="certifications.html">Partners & Certifications</a>
                 </li>
-                <li><a href="reviewsandawards.html">Reviews & Awards</a></li>
+                <!-- <li><a href="reviewsandawards.html">Reviews & Awards</a></li> -->
               </ul>
             </div>
             <div class="platform">
               <h3>Platform partnerships</h3>
               <ul>
                 <li>
-                  <a href="industrymanufacturing.html">AWS</a>
+                  <a href="#">AWS</a>
                 </li>
                 <li>
-                  <a href="Transportationlogistics.html">Google Cloud</a>
+                  <a href="#">Google Cloud</a>
                 </li>
-                <li><a href="healthcare.html">Microsoft</a></li>
-                <li><a href="bankinsurance.html">Salesforce</a></li>
+                <li><a href="#">Microsoft</a></li>
+                <li><a href="#">Salesforce</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- 
     MANAGE IT PAGE SECTION -->
     <section class="manageithero">
@@ -192,19 +197,36 @@
         <div class="bmanageouter">
           <div class="leftside">
             <p class="ttext">
-              Benefits of managed IT services provided by Kodeks
+              Drive transformation and agility with a partnership approach
             </p>
             <p class="mtext">
-              Although cutting costs was the primary objective of outsourcing in
-              the past, executives now look for a reliable partner who can also
-              help boost business agility, which is a competitive advantage in
-              the digital age.
+              Focused on delivering outcomes, we help you accelerate business
+              transformation with a partnership model for managing your IT
+              services.
             </p>
             <p class="btext">
-              Because we function as an extension of your company to manage an
-              increasingly complex environment of technology, procedures,
-              systems, and software, we at CGI refer to outsourcing as managed
-              services.
+              Managed IT services are about delivering value and are key to
+              building the robust IT supply chain required to increase agility,
+              scalability and resilience. These are prerequisites to enhance the
+              user experience, optimize operations, reduce costs, and embed
+              security and data privacy. In our managed services partnerships,
+              we also help connect front- and back-end systems and processes to
+              speed innovative products and services to market, across all
+              touchpoints.
+            </p>
+            <p class="btext">
+              Clients trust us as a capable and accountable partner. We assume
+              service risks while adjusting to your evolving priorities and
+              continually find ways to improve productivity. We adapt our
+              best-in-class methodologies, tools and processes to your specific
+              environment to meet performance commitments and cost controls.
+            </p>
+            <p class="btext">
+              The benefits of our outcome-based approach include delivery of
+              pre-defined results, predictable pricing, significant short-term
+              and long-term cost savings, enhanced supplier commitment,
+              increased innovation and operational excellence, higher quality,
+              faster time-to-market, and reduced risks.
             </p>
             <div class="manageitoutercards">
               <div class="card">
@@ -407,6 +429,9 @@
       let closeButton = document.querySelector(".closebar");
       let solutionPortfolio = document.querySelector(".solutionportfolio");
       let solutionPages = document.querySelector(".solutionpages");
+      let companytab = document.querySelector(".company");
+      let companyPages = document.querySelector(".companypages");
+      console.log(companyPages);
 
       openButton.addEventListener("click", function () {
         navbar.style.display = "block";
@@ -419,6 +444,13 @@
       });
       solutionPages.addEventListener("mouseleave", function () {
         solutionPages.style.display = "none";
+      });
+
+      companytab.addEventListener("mousemove", function () {
+        companyPages.style.display = "block";
+      });
+      companyPages.addEventListener("mouseleave", function () {
+        companyPages.style.display = "none";
       });
     </script>
   </body>
