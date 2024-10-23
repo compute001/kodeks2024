@@ -39,6 +39,9 @@ button{
 .mb10{
     margin-bottom: 10px !important;
 }
+.mt10{
+    margin-top: 10px !important; 
+}
 .m20{
     margin-block: 30px;
 }
@@ -51,6 +54,9 @@ button{
 }
 .mb30{
     margin-bottom: 30px !important;
+}
+.mb50{
+    margin-bottom: 50px !important;
 }
 .h60w6{
    font-size:  60px;
@@ -177,7 +183,7 @@ button{
     border-bottom-right-radius:850px;
 }
 .hero .content{
-    padding: 10% 0px 0px 90px;
+    padding: 5% 0px 0px 90px;
 }
 
 .hero .content .toptext p:first-child{
@@ -189,7 +195,7 @@ button{
 
 }
 .hero .content .toptext P:first-child{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     letter-spacing:2px;
     color:white;
@@ -209,6 +215,7 @@ button{
     letter-spacing:1px;
     color:white; 
     margin:30px 0px 50px 0px;
+    line-height: 32px;
 }
 .hero button{
     border:none;
