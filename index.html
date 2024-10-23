@@ -15,10 +15,7 @@
     />
   </head>
   <body>
-
-   
-
-        <!-- HEADER TOP -->
+    <!-- HEADER TOP -->
 
     <section class="header">
       <div class="container">
@@ -60,22 +57,27 @@
                   <a href="technologyinnovation.html">Technology Innovation</a>
                 </li>
                 <li>
+                  <a href="industryfocussolution.html"
+                    >Industry Focused Solutions</a
+                  >
+                </li>
+                <li>
                   <a href="manageitsolutions.html">Managed IT Services</a>
                 </li>
-             
+
                 <li>
                   <a href="systemintegration.html">Systems Integration</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="businessconsultation.html">Business Consulting</a>
-                </li>
+                </li> -->
                 <li>
                   <a href="infrastructure.html">Infrastructure Service</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="businessprocess.html">Business Process Services</a>
-                </li>
-                <li><a href="cloudservices.html">Cloud Services</a></li>
+                </li> -->
+                <!-- <li><a href="cloudservices.html">Cloud Services</a></li> -->
               </ul>
             </div>
             <div class="businesschallenges">
@@ -182,8 +184,7 @@
       </div>
     </section>
 
-     
-    </section> 
+    <!-- </section>  -->
 
     <!-- HERO SECTION -->
     <!-- <section class="hero">
@@ -227,13 +228,11 @@
             <div class="heroinner">
               <div class="content">
                 <div class="toptext">
-                  <p>
-                    Innovate, Transform, Succeed
-                  </p>
+                  <p>Innovate, Transform, Succeed</p>
                   <!-- <p>Empowering businesses with cutting-edge technology solutions</p> -->
                 </div>
                 <div class="midtext">
-                  <p class="m20">
+                  <p class="mb20">
                     Empowering businesses with cutting-edge technology solutions
                   </p>
                 </div>
@@ -246,13 +245,13 @@
         <div class="slide">
           <div class="container">
             <div class="heroinner">
-              <div class="content">
+              <div class="content .content2">
                 <div class="toptext">
                   <!-- <p>Future-Ready Technology for</p> -->
-                  <p>Seamless Integration, Powerful Results</p>
+                  <p>Seamless Integration,Powerful Results</p>
                 </div>
                 <div class="midtext">
-                  <p class="m20">
+                  <p class="mb20">
                     Connecting your enterprise from back-office to front-end
                   </p>
                 </div>
@@ -271,7 +270,7 @@
                   <p>Future-Proof Your Business</p>
                 </div>
                 <div class="midtext">
-                  <p class="m20">
+                  <p class="mb20">
                     Stay ahead with our innovative IT strategies and managed
                     services
                   </p>
@@ -299,26 +298,24 @@
 
     <!-- DIGITAL EXCELLENCE -->
 
-
     <section class="bettertogether digitalexcellence">
       <div class="container">
         <div class="leftside">
           <div class="contentwrapper">
-            <h2 class="h48w6">Driving Digital Excellence
-            </h2>
-            <p class="p20w4">Your trusted partner in technology innovation and business transformation
-  
+            <h2 class="h48w6">Driving Digital Excellence</h2>
+            <p class="p20w4">
+              Your trusted partner in technology innovation and business
+              transformation
             </p>
-          
+
             <button class="expbtn">Learn More About Us</button>
           </div>
         </div>
         <div class="rightside">
-          <img src="images/logoicon.png" alt="">
+          <img src="images/logoicon.png" alt="" />
         </div>
       </div>
-     </section>
-
+    </section>
 
     <!-- ABOUT US SECTION -->
     <section class="about">
@@ -326,10 +323,17 @@
         <div class="contentandbtn">
           <div class="textsect">
             <h2>ABOUT US</h2>
-            <br>
-            <h3 class="h20w6">Pioneering the Future of Smart Building Technology</h3>
+            <br />
+            <h3 class="h20w6">
+              Pioneering the Future of Smart Building Technology
+            </h3>
             <p>
-              At <strong>KODEKS</strong>, we stand at the forefront of network innovation, driving the evolution of building architecture into the smart, connected spaces of tomorrow. Our vision is clear: to revolutionize the way buildings operate, making them more efficient, sustainable, and responsive to the needs of their occupants through cutting-edge technology.
+              At <strong>KODEKS</strong>, we stand at the forefront of network
+              innovation, driving the evolution of building architecture into
+              the smart, connected spaces of tomorrow. Our vision is clear: to
+              revolutionize the way buildings operate, making them more
+              efficient, sustainable, and responsive to the needs of their
+              occupants through cutting-edge technology.
             </p>
           </div>
           <button>Learn More About Us</button>
@@ -339,10 +343,6 @@
         </div>
       </div>
     </section>
-
-
-
-   
 
     <!-- TRANSFORMATION -->
     <section class="transform">
@@ -480,20 +480,19 @@
     <section class="footersect">
       <div class="container">
         <div class="footerwrapper">
-         
           <div class="horizontalline"></div>
 
           <!-- <p>Dubai , United Arab Emirates</p> -->
           <div class="footernavlist">
             <ul class="toplist">
-              
               <li class="address">
-                <p>Dubai, United Arab Emirates </p>
-                <a href="">&nbsp©2024 Kodeks</a></li>
+                <p>Dubai , United Arab Emirates</p>
+                <a href="">&nbsp©2024 Kodeks</a>
+              </li>
               <ul>
-              <li class="mid"><a href="#">Terms & Conditions</a></li>
-              <li><a href="">Privacy Policy</a></li>
-            </ul>
+                <li class="mid"><a href="#">Terms & Conditions</a></li>
+                <li><a href="">Privacy Policy</a></li>
+              </ul>
             </ul>
           </div>
         </div>
@@ -531,96 +530,86 @@
       companyPages.addEventListener("mouseleave", function () {
         companyPages.style.display = "none";
       });
-    
 
+      let slides = document.querySelectorAll(".slide");
+      // Access the next and prev buttons
+      let next = document.querySelector(".next");
+      let prev = document.querySelector(".prev");
+      // Access the indicators
+      let dots = document.querySelectorAll(".dot");
 
+      var counter = 0;
 
-      let slides = document.querySelectorAll('.slide');
-// Access the next and prev buttons
-let next = document.querySelector('.next');
-let prev = document.querySelector('.prev');
-// Access the indicators
-let dots = document.querySelectorAll('.dot');
+      // Code for next button
+      next.addEventListener("click", slideNext);
+      function slideNext() {
+        slides[counter].style.animation = "next1 0.5s ease-in forwards";
+        if (counter >= slides.length - 1) {
+          counter = 0;
+        } else {
+          counter++;
+        }
+        slides[counter].style.animation = "next2 0.5s ease-in forwards";
+        indicators();
+      }
 
-var counter = 0;
+      // Code for prev button
+      prev.addEventListener("click", slidePrev);
+      function slidePrev() {
+        slides[counter].style.animation = "prev1 0.5s ease-in forwards";
+        if (counter == 0) {
+          counter = slides.length - 1;
+        } else {
+          counter--;
+        }
+        slides[counter].style.animation = "prev2 0.5s ease-in forwards";
+        indicators();
+      }
 
-// Code for next button
-next.addEventListener('click', slideNext);
-function slideNext(){
-slides[counter].style.animation = 'next1 0.5s ease-in forwards';
-if(counter >= slides.length-1){
-  counter = 0;
-}
-else{
-  counter++;
-}
-slides[counter].style.animation = 'next2 0.5s ease-in forwards';
-indicators();
-}
+      // Auto slideing
+      function autoSliding() {
+        deletInterval = setInterval(timer, 3000);
+        function timer() {
+          slideNext();
+          indicators();
+        }
+      }
+      autoSliding();
 
-// Code for prev button
-prev.addEventListener('click', slidePrev);
-function slidePrev(){
-slides[counter].style.animation = 'prev1 0.5s ease-in forwards';
-if(counter == 0){
-  counter = slides.length-1;
-}
-else{
-  counter--;
-}
-slides[counter].style.animation = 'prev2 0.5s ease-in forwards';
-indicators();
-}
+      // Stop auto sliding when mouse is over
+      const container = document.querySelector(".slide-container");
+      container.addEventListener("mouseover", function () {
+        clearInterval(deletInterval);
+      });
 
-// Auto slideing
-function autoSliding(){
-  deletInterval = setInterval(timer, 3000);
-  function timer(){
-    slideNext();
-    indicators();
-  }
-}
-autoSliding();
+      // Resume sliding when mouse is out
+      container.addEventListener("mouseout", autoSliding);
 
-// Stop auto sliding when mouse is over
-const container = document.querySelector('.slide-container');
-container.addEventListener('mouseover', function(){
-  clearInterval(deletInterval);
-});
+      // Add and remove active class from the indicators
+      function indicators() {
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        dots[counter].className += " active";
+      }
 
-// Resume sliding when mouse is out
-container.addEventListener('mouseout', autoSliding);
-
-// Add and remove active class from the indicators
-function indicators(){
-  for(i = 0; i < dots.length; i++){
-    dots[i].className = dots[i].className.replace(' active', '');
-  }
-  dots[counter].className += ' active';
-}
-
-// Add click event to the indicator
-function switchImage(currentImage){
-  currentImage.classList.add('active');
-  var imageId = currentImage.getAttribute('attr');
-  if(imageId > counter){
-  slides[counter].style.animation = 'next1 0.5s ease-in forwards';
-  counter = imageId;
-  slides[counter].style.animation = 'next2 0.5s ease-in forwards';
-  }
-  else if(imageId == counter){
-    return;
-  }
-  else{
-  slides[counter].style.animation = 'prev1 0.5s ease-in forwards';
-  counter = imageId;
-  slides[counter].style.animation = 'prev2 0.5s ease-in forwards';	
-  }
-  indicators();
-}
-
-
+      // Add click event to the indicator
+      function switchImage(currentImage) {
+        currentImage.classList.add("active");
+        var imageId = currentImage.getAttribute("attr");
+        if (imageId > counter) {
+          slides[counter].style.animation = "next1 0.5s ease-in forwards";
+          counter = imageId;
+          slides[counter].style.animation = "next2 0.5s ease-in forwards";
+        } else if (imageId == counter) {
+          return;
+        } else {
+          slides[counter].style.animation = "prev1 0.5s ease-in forwards";
+          counter = imageId;
+          slides[counter].style.animation = "prev2 0.5s ease-in forwards";
+        }
+        indicators();
+      }
     </script>
-
   </body>
 </html>
