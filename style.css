@@ -36,6 +36,20 @@ button{
     /* font-size:var(--fntsizel1); */
     letter-spacing: var(--gap);
 }
+/* .capt{
+    text-transform: capitalize !important;
+} */
+
+.capt {
+    text-transform: lowercase;
+  }
+  .capt:first-letter
+  {
+    text-transform: uppercase;
+  }
+  .capt1 {
+    text-transform: capitalize;
+  }
 .mb10{
     margin-bottom: 10px !important;
 }
