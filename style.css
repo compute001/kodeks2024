@@ -7,6 +7,7 @@
     --prclr:#0572b2;
     --sdclr:#5e8dc2;
     --trclr:#a0b4d7;
+    --trclr1:#d8e9f3;
     --ltblack: #00000099;
     --ltblack1:#8B8B8B;
     --ltwht: #f5f5f5;
@@ -88,9 +89,9 @@ button{
      margin-bottom:30px;
  }
 .h24w6{
-    font-size:  24px;
+    font-size:  24px !important;
     font-weight: 600;
-    line-height: 1em;
+    line-height: 1.3em;
     letter-spacing: .5px;
     color: var(--prclr);
 }
@@ -1008,8 +1009,8 @@ CONTACT SECTION */
 
    }
    .solution .container{
-    background-color: var(--trclr);
-    padding:60px;
+    background-color: var(--trclr1);
+    padding-block:100px;
     margin-inline:60px;
     border-radius: 40px;
    }
@@ -1020,7 +1021,7 @@ CONTACT SECTION */
     font-weight: 800;
     letter-spacing: 1px;
     margin: auto;
-    width:70%;
+    width:90%;
    }
    .solution p{
     font-size: 23px;
@@ -1030,7 +1031,7 @@ CONTACT SECTION */
     letter-spacing: .5px;
     margin: auto;
     margin-top: 50px;
-    width:70%;
+    width:90%;
    }
 
    .solution h3{
@@ -1040,9 +1041,10 @@ CONTACT SECTION */
     font-weight: 800;
     letter-spacing: 1px;
    
-    width:70%;
+    width:90%;
     margin: auto;
     margin-top: 50px;
+    
     
    }
    .solutionservicessection{
