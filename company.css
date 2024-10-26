@@ -414,6 +414,10 @@ width:100px;
     transform: translateX(-50%);
 }
 
+.commbenifits .card{
+    padding:40px 20px 40px 30px !important;
+    text-align: center;
+}
 /* CERTIFICATIONS PAGE */
 .credentials .rightside{
     flex: 0 0 50% !important;
