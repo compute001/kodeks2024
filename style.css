@@ -1077,6 +1077,10 @@ CONTACT SECTION */
 .solutionservicessection .servicewrapper .servicecard img{
 width:50px;
 }
+
+.points .servicewrapper .servicecard{
+    padding:20px 0px !important;
+}
 /* 
 MANAGE IT SOLUTION PAGE */
 .manageithero{
@@ -1337,8 +1341,8 @@ display:block;
 }
 .establishment .leftside .mtext, .establishment .leftside .btext{
     font-size:18px;
-    color:black;
-    opacity:.8;
+    color:var(--ltblack1);
+
     margin-block:30px;
 }
 
@@ -1370,8 +1374,7 @@ display:block;
 .establishment .leftside .card .cardbottom p{
     font-size:18px;
 
-    color:black;
-    opacity:.8;
+    color:var(--ltblack1);
     margin-block:30px;
 }
 
