@@ -1081,6 +1081,13 @@ width:50px;
 .points .servicewrapper .servicecard{
     padding:20px 0px !important;
 }
+
+.points  .servicewrapper .servicecard img
+    {
+        width:40px !important;
+        }
+
+
 /* 
 MANAGE IT SOLUTION PAGE */
 .manageithero{
