@@ -961,6 +961,7 @@ CONTACT SECTION */
    }
    .solutionpages .businesschallenges .card img{
     width:40px;
+    height:40px;
     margin-bottom: 5px;
    }
    .solutionpages .businesschallenges .card:hover{
@@ -1075,7 +1076,8 @@ CONTACT SECTION */
    gap:10px;
 }
 .solutionservicessection .servicewrapper .servicecard img{
-width:50px;
+width:40px;
+height:40px;
 }
 
 .points .servicewrapper .servicecard{
