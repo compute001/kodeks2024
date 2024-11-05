@@ -118,6 +118,14 @@ button{
     
     
 }
+.p16w4{
+    font-size:  16px;
+    line-height: 1.5em;
+    letter-spacing: .3px;
+    opacity: 0.7;
+    
+    
+}
 .p10w6{
     font-size:  10px;
     font-weight: 600;
@@ -1368,13 +1376,13 @@ display:block;
 
 }
 .establishment .leftside .card .cardheaing{
-    font-size:22px;
+    font-size:20px;
     font-weight: 500;
 
     color:var(--prclr);
 
     letter-spacing: .3px;
-    width:60%;
+    width:100% !important;
 }
 .establishment .leftside .establishmentoutercards{
     display:grid;
@@ -1679,17 +1687,18 @@ padding-left:50px;
 
 }
 .nextgeneration .leftside .card .cardheaing{
-    font-size:22px;
+    font-size:20px;
     font-weight: 500;
 
     color:var(--prclr);
 
     letter-spacing: .3px;
-    width:60%;
+    /* width:60%; */
 }
 .nextgeneration .leftside .nextgenerationoutercards{
     display:grid;
     grid-template-columns: repeat(2,1fr);
+    gap:25px;
 }
 .nextgeneration .leftside .card .cardbottom p{
     font-size:18px;
@@ -2022,17 +2031,18 @@ display:block;
 
 }
 .benifitsmanagedit .leftside .card .cardheaing{
-    font-size:22px;
+    font-size:20px;
     font-weight: 500;
 
     color:var(--prclr);
 
     letter-spacing: .3px;
-    width:60%;
+    width:100% !important;
 }
 .benifitsmanagedit .leftside .manageitoutercards{
     display:grid;
     grid-template-columns: repeat(2,1fr);
+    gap:25px;
 }
 .benifitsmanagedit .leftside .card .cardbottom p{
     font-size:18px;
